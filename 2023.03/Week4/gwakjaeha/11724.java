@@ -2,7 +2,7 @@
  * 문제 : 11724 - 연결 요소의 개수 / 난이도 : Silver2
  * union-find 알고리즘 활용
  *
- * 메모리 : 309084KB / 시간 : 1488MS
+ * 메모리 : 309084KB / 시간 : 1488ms
  * */
 
 import java.util.HashSet;
