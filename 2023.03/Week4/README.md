@@ -1,11 +1,8 @@
-## 2023.03.20 (예시입니다)
-### Level1. 프로그래머스 - [이모티콘 할인행사](https://school.programmers.co.kr/learn/courses/30/lessons/150368)
-문제 유형 : 완전탐색 / Bronze1
+## 2023.03.20
+### Level1. 백준(Silver3) - [구간합 구하기](https://www.acmicpc.net/problem/11659)
 ***
 
-### Level2. 백준 - [옹앓이](https://school.programmers.co.kr/learn/courses/30/lessons/150368)
-문제 유형 : 완전탐색 / Silver3
+### Level2. 백준(Silver2) - [연결 요소의 개수 구하기](https://www.acmicpc.net/problem/11724)
 ***
 
-### Level3. 백준 - [이모티콘 할인행사](https://school.programmers.co.kr/learn/courses/30/lessons/150368)
-문제 유형 : 완전탐색 / Gold4
+### Level3. 백준(Gold4) - [좋은수 구하기](https://www.acmicpc.net/problem/1253)
