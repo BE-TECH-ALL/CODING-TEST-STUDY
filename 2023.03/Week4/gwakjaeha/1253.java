@@ -1,3 +1,10 @@
+/*
+ * 문제 : 1253 - 좋다 / 난이도 : Gold4
+ * 투포인터 알고리즘
+ *
+ * 메모리 : 22180KB / 시간 : 372ms
+ * */
+
 import java.util.Arrays;
 import java.util.Scanner;
 
