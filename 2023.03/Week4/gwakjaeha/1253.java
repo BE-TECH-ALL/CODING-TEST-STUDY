@@ -25,7 +25,7 @@ public class Main {
 				if(arr[p1] + arr[p2] < arr[i]) p1++;
 				else if (arr[p1] + arr[p2] > arr[i]) p2--;
 				else {
-					//해당 숫자를 제외한 나머지 두수의 합으로 좋은 수를 결정해야 하므로 아래 if 문 추가
+					//해당 숫자를 제외한 나머지 두수의 합으로 좋은 수를 결정해야 하므로 자신의 인덱스는 넘김
 					if(i == p1) p1++;
 					else if(i == p2) p2--;
 					else{
