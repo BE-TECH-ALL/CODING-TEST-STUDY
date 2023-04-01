@@ -1,3 +1,10 @@
+/*
+ * 문제 : 11659 - 구간합 구하기 / 난이도 : Silver3
+ * 누적합 활용
+ *
+ * 메모리 : 257304KB / 시간 : 2104ms
+*/
+
 import java.util.Scanner;
 
 public class Main {
