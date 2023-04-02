@@ -52,6 +52,7 @@ public class Main {
 				if(newX < 0 || newY < 0 || newX >= n || newY >= m || graph[newX][newY] == 0) continue;
 
 				//한번도 접근한 적이 없는 칸만 접근 가능 (이미 접근해본 칸은 최소 경로일 수 없음)
+				//해당 칸에 해당 칸까지 거쳐온 노드 개수를 입력
 				if(graph[newX][newY] == 1){
 					graph[newX][newY] = graph[node.x][node.y] + 1;
 					queue.add(new Node(newX, newY));

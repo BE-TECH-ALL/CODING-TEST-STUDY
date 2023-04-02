@@ -17,10 +17,13 @@ public class Main {
 		int n  = sc.nextInt();
 		int answer = 0;
 
+		// number, strike, ball 정보 입력
 		for (int i = 0; i < n; i++) {
 			baseBallInfos.add(new BaseBallInfo(sc.next(), sc.nextInt(), sc.nextInt()));
 		}
 
+		// 123 부터 987 까지 완전탐색을 하면서, 0이나 같은 숫자를 포함하는 숫자는 제거하고,
+		// 모든 입력 정보에 대해 Strike, Ball 개수가 일치하는 후보 숫자만 카운트 함.
 		for (int number = 123; number <= 987; number++) {
 			if(hasSameNumberOrZero(number)) continue;
 			int passCount = 0;
@@ -37,6 +40,7 @@ public class Main {
 		System.out.println(answer);
 	}
 
+	// 0 혹은 같은 숫자를 포함하는지 여부를 리턴하는 함수
 	public static boolean hasSameNumberOrZero(int number){
 		Set<Integer> numSet = new HashSet<>();
 		for (int i = 0; i < 3; i++) {
@@ -46,6 +50,7 @@ public class Main {
 		return numSet.contains(0) || numSet.size() < 3;
 	}
 
+	// Strike 개수 카운트
 	public static int countStrike(String candidate, String prediction){
 		int count = 0;
 		for (int i = 0; i < 3; i++) {
@@ -54,6 +59,7 @@ public class Main {
 		return count;
 	}
 
+	// Ball 개수 카운트
 	public static int countBall(String candidate, String prediction){
 		int count = 0;
 		for (int i = 0; i < 3; i++) {
