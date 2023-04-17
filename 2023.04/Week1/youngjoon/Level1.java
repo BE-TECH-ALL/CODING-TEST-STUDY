@@ -1,4 +1,4 @@
-package youngjoon;
+package Week1.youngjoon;
 
 import java.io.BufferedReader;
 import java.io.IOException;
