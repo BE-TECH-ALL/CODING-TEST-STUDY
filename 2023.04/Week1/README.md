@@ -1,4 +1,4 @@
-## 2023.04.12
+## 2023.04.03
 
 ### Level1. 백준(Silver3) - [이친수](https://www.acmicpc.net/problem/2193)
 
